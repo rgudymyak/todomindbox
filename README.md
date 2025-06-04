@@ -28,6 +28,11 @@ ToDo list - приложение, где можно добавлять, удал
 2. TypeScript
 3. Tailwind
 
+Инструкция по установке:
+
+1. git clone https://github.com/rgudymyak/todomindbox.git
+2. npm install
+3. npm run dev
 <!-- # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -58,12 +63,12 @@ export default tseslint.config({
       tsconfigRootDir: import.meta.dirname,
     },
   },
-})
+});
 ```
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
+````js
 // eslint.config.js
 import reactX from 'eslint-plugin-react-x'
 import reactDom from 'eslint-plugin-react-dom'
@@ -82,3 +87,4 @@ export default tseslint.config({
   },
 })
 ``` -->
+````
